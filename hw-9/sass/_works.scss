@@ -1,0 +1,17 @@
+.section-works{
+  color: #29323c;
+  font-family: $font-openSans;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1170px;
+}
+
+.images__photo{
+  width: calc(100%/5);
+  height: 150px;
+  padding: 0;
+
+}

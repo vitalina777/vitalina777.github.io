@@ -1,0 +1,25 @@
+.section-header{
+  background: url("../img/header.png") no-repeat center;
+  //max-width: 1170px;
+  background-size: cover;
+  min-height: 750px;
+}
+
+.header{
+  padding: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  &__text{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 20px;
+    color: #e8e8e8;
+  }
+}
+
+
+

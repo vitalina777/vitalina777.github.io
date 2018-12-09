@@ -1,0 +1,119 @@
+.container {
+  margin: 0 auto;
+  max-width: 1170px; }
+
+.section-header {
+  background: url("../img/header.png") no-repeat center;
+  background-size: cover;
+  min-height: 750px; }
+
+.header {
+  padding: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between; }
+
+.menu {
+  display: flex;
+  align-items: center; }
+  .menu__text {
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 20px;
+    color: #e8e8e8; }
+
+.hero {
+  color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.hero__h1 {
+  padding-top: 220px;
+  font-size: 36px;
+  font-weight: 700; }
+
+.hero__paragraph {
+  padding: 30px 0;
+  max-width: 625px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center; }
+
+.hero__btn {
+  color: #e8e8e8;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid #f2f2f2; }
+
+.hero__img-arrow {
+  display: flex;
+  justify-content: center;
+  padding: 145px 0; }
+
+.hero__vertical-line {
+  border-bottom: 1px solid #f2f2f2;
+  min-height: 40px; }
+
+.section-service {
+  background-color: #f5f5f5;
+  color: #29323c;
+  font-family: "Open-Sans", sans-serif; }
+
+.service-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.title__h2 {
+  padding: 100px 0 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800; }
+
+.title__paragraph {
+  padding: 15px 0 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.title-underline {
+  border-bottom: 2px solid #29323c;
+  padding-bottom: 20px;
+  max-width: 40px; }
+
+.elements {
+  display: flex;
+  justify-content: space-between; }
+
+.elements__item {
+  text-align: center; }
+
+.item__h3 {
+  padding: 40px 0 0;
+  font-size: 16px;
+  font-weight: 800; }
+
+.item__paragraph {
+  padding: 25px 0 100px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px; }
+
+.section-works {
+  color: #29323c;
+  font-family: "Open-Sans", sans-serif; }
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1170px; }
+
+.images__photo {
+  width: calc(100%/5);
+  height: 150px;
+  padding: 0; }
