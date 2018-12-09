@@ -1,0 +1,72 @@
+.amazing {
+  background-color: #111;
+}
+
+.amazing-content {
+  padding-bottom: 100px;
+  h2 {
+    padding-top: 100px;
+    color: #d4d4d4;
+    font-size: 60px;
+    font-weight: 300;
+  }
+  p {
+    padding-top: 5px;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+
+.content {
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  .element-amazine {
+    padding-bottom: 50px;
+  }
+
+  .p-under-elements {
+    text-align: center;
+    max-width: 590px;
+    line-height: 30%;
+  }
+
+  .image-social {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .element {
+    .text-in-the-ramka {
+      padding: 10px;
+    }
+  }
+  .logos {
+    img {
+      margin: 0 auto;
+    }
+  }
+  .amazing-content {
+    p {
+      margin: 0 5px;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 740px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
