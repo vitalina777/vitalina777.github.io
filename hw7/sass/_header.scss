@@ -1,0 +1,72 @@
+.my-button-header{
+  width: 150px;
+  margin-right: 55px;
+  border-radius: 20px;
+  border: 1px solid #8d81ac;
+  background-color: #8d81ac;
+}
+
+.hero{
+  background: url(../img/img-home.png) no-repeat center;
+  background-size: cover;
+}
+
+.h1-home{
+  padding: 110px 0 20px 0;
+  font-size: 70px;
+  color: #fff;
+}
+
+.color-home{
+  color: #8d81ac;
+  font-weight: 400;
+}
+
+.color-home-little{
+  padding: 30px;
+  color: #8d81ac;
+  font-weight: 400;
+}
+
+.paragraph2-home{
+  padding-bottom: 505px;
+}
+
+.btn-download{
+  position: relative;
+  right: 0;
+  bottom: -30px;
+  color: #d4d4d4;
+  background-color: #8d81ac;
+  border: 1px solid #8d81ac;
+  margin: auto;
+  padding: 15px 55px;
+  border-radius:  30px;
+}
+.h2-revolutionary{
+  color: #635c73;
+}
+.titleH2-in-page{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.style-for-paragraph-underH2{
+  max-width: 880px;
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px auto;
+  line-height: 25px;
+}
+
+.padding-about-a{
+  margin-bottom: 70px;
+}
+
+
+//@media (min-width: 480px) {
+//  .paragraph2-home{
+//    padding-bottom: 250px;
+//  }
+//}

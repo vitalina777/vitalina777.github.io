@@ -1,0 +1,51 @@
+.features{
+  overflow: hidden;
+  padding: 50px 0 0 0;
+  background-color: #f4f4f4;
+}
+
+.row{
+  padding: 20px 0;
+}
+
+.features-image{
+  position: relative;
+}
+
+.features-media{
+  font-size: 18px;
+}
+
+.featuresH2{
+  padding: 10px 20px;
+  color: #8d81ac;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.steven-media{
+  font-size: 18px;
+}
+
+.social-block{
+  padding: 50px 0 0 0;
+  margin: auto;
+  max-width: 900px;
+  img{
+    margin: 5px;
+  }
+}
+.pricing-block:hover {
+  transform: scale(1.1);
+  background-color: rgba(0,0,0,0.08);
+  h3 {
+    background-color: rgba(0,0,0,0.11);
+  }
+  h2 {
+    transform: scale(1.2);
+  }
+  .pricing-purchase-button {
+    background-color: rgba(0,0,0,0.15);
+  }
+}

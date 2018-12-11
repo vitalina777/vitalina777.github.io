@@ -1,0 +1,351 @@
+.cookies-up{
+	height: 72px;
+	text-align: center;
+	background-color: #194277;
+	color: #fff;
+}
+.accept{
+	color: #194277;
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 16.36px;
+	letter-spacing: 0.55px;
+}
+
+.button-cookies{
+	margin: 20px 20px;
+	width: 112px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: #ffffff;
+}
+
+/*banner*/
+.header-content{
+	max-width: 1067px;
+	margin: auto;
+	text-align: center;
+}
+
+.header-banner{
+	height: 872px;
+	display: block;
+	background: url("../image/2-layers-2.png") no-repeat;
+	background-size: 100%;
+}
+
+.elips{
+	margin: auto;
+	padding: 94px;
+}
+.title{
+	color: #ffffff;
+	font-family: "Lato - Black";
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+}
+
+.text-for-title{
+	padding: 42px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+
+.hire-me{
+	margin-bottom: 25px;
+	width: 204px;
+	height: 55px;
+	border-radius: 28px;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
+
+.arrow{
+	text-align: center;
+	padding: 24px;
+}
+
+.cursor{
+	max-width: 15px;
+}
+
+/*maaaaainnnnn*/
+
+.about-me{
+	padding: 50px;
+	text-align: center;
+}
+
+.about-title{
+	background-clip: text;
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 35.12px;
+}
+
+.about-paragraph{
+	margin: auto;
+	padding: 69px;
+	padding-bottom: 115px; 
+	width: 1067px;
+	height: 85px;
+	color: #5a5a5a;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+.blue-banner{
+	text-align: center;
+	width: 100%;
+	height: 1145px;
+	background-color: #f1f8ff;
+	background-size: 100%;
+}
+
+.blue-banner h1{
+	padding-top: 99px;
+	background-clip: text;
+	color: #3677fd;
+	font-family: Lato, sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 35.12px;
+}
+
+/*first string*/
+
+.first-string, .second-string{
+	display: inline-block;
+	max-width: 1600px;
+	margin: auto;
+	/*text-align: center;*/
+}
+
+
+.first-string img{
+	margin-top: 55px;
+}
+
+.first-string h3{
+	padding-top: 102px;
+	color: #3677fd;
+	font-family: Lato, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.first-string p{
+	padding-top: 33px;
+	color: #5a5a5a;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+.mobile-app,
+.web-design,
+.web-develop{
+	float:left;
+	/*margin: 100px 63px -63px 70px;*/
+	text-align:center;
+	width: 355px;
+	height: 390px;
+}
+
+/*second string*/
+
+.second-string img{
+	padding-top: 140px;
+}
+
+.second-string h3{
+	padding-top: 99px;
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.second-string p{
+	padding-top: 33px;
+	width: 355px;
+	text-align: center;
+	color: #5a5a5a;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+.product,
+.ux-ui,
+.animations{
+	float: left;
+	width: 400px;
+	height: 390px; 
+	/*margin: 150px -50px -70px 70px;*/
+	text-align: center;
+}
+
+/*latest work*/
+.latest-work{
+	margin:auto;
+	text-align: center;
+	max-width: 1170px;
+}
+
+.latest-work h1{
+	padding-top: 91px;
+	padding-bottom: 104px;
+	text-align: center;
+	background-clip: text;
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 35.12px;
+}
+
+.string-table1{
+	float: left;
+	width: 1200px;
+	text-align: center;
+
+}
+
+.string-table1 img{
+	margin-left: 31px;
+	margin-bottom: 54px;
+}
+
+.string-table2{
+	float: left;
+	width: 1200px;
+	text-align: center;
+
+}
+.string-table2 img{
+	margin-left: 31px;
+}
+
+.blue-banner2{
+	margin-top: 1019px;
+	text-align: center;
+	width: 100%;
+	height: 363px;
+	background-color: #f1f8ff;
+}
+
+.clients{
+	padding-top: 94px;
+	text-align: center;
+	background-clip: text;
+	color: #3677fd;
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 35.12px;
+}
+
+.blue-banner2 img{
+	padding-top: 76px;
+	/*margin-bottom: 99px;*/
+	width: 1043px;
+	height: 56px;
+}
+
+/*foooteeeerrrr*/
+
+.footer{
+	background: url(../image/footer.png) no-repeat;
+	padding: 60px 0px;
+	background-size: 100%;
+}
+
+.text-footer{
+	max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-text{
+	display: inline-block;
+    color: white;
+    min-height: 60px;
+    float: left;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+/*
+.text-footer{
+	display: inline-block;
+}*//*
+
+.footer-text{
+	text-align: center;
+	padding-left: 32px;
+	padding-top: 100px;
+	max-width: 1140px;
+	width: 920px;
+	height: 47px;
+	font-size: 50px;
+	line-height: 65px;
+	color: #ffffff;
+	font-family: "Lato Light";
+	font-weight: 300;
+	}
+*/
+.footer-text2{
+	text-align: center;
+	margin-left: 10px;
+	font-size: 50px;
+	color: #ffffff;
+	font-family: "Lato - Bold";
+	font-weight: 700;
+}
+
+.footer-button{
+	margin-left: 1166px;
+	margin-top: -200px;
+	margin: ;
+	width: 204px;
+	height: 55px;
+	border-radius: 28px;
+	background-color: #ffffff;
+}
+
+.footer-button strong{
+	color: #3695ff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+}
