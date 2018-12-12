@@ -1,0 +1,67 @@
+.section-team{
+  background: url("../img/team.png");
+  background-size: cover;
+  min-height: 900px;
+}
+
+.title__inPage-color{
+  color: #fff;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+.box-item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color: #f2f2f2;
+  opacity: 0.75;
+  &__img{
+
+  }
+  &__h3{
+    padding-top: 30px;
+  }
+  &__paragraph{
+    padding-top: 10px;
+  }
+  &__logos{
+    padding-top: 20px ;
+  }
+}
+
+.team-btn{
+  //margin: 95px 0 100px;
+  //text-decoration: none;
+  //padding: 15px 25px;
+  //color: #e8e8e8;
+  //font-family: $font-montserrat;
+  //font-size: 13px;
+  //font-weight: 700;
+  //border: 2px solid #fff;
+  //border-radius: 25px;
+}
+
+.team-btn{
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  &__links{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #e8e8e8;
+    font-family: $font-montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    &:hover{
+      background-color: white;
+      color: #000;
+    }
+  }
+}

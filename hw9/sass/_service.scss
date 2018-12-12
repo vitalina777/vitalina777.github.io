@@ -26,13 +26,13 @@
   line-height: 30px;
 }
 .title-underline{
-  border-bottom: 2px solid #29323c;
-  padding-bottom: 20px;
-  //text-align: center;
+  margin: auto;
   max-width: 40px;
+  border: 1px solid #29323c;
 }
 
 .elements{
+  padding-top: 60px;
   display: flex;
   justify-content: space-between;
 }

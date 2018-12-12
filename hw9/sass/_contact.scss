@@ -1,0 +1,11 @@
+.contact{
+  display: flex;
+  //flex-flow: row wrap;
+
+}
+
+.formBox{
+  background: url("../img/bcgFormBox.png")no-repeat;
+  display: flex;
+  flex-direction: column;
+}

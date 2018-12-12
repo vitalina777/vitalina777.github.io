@@ -51,11 +51,11 @@
 .hero__img-arrow {
   display: flex;
   justify-content: center;
-  padding: 145px 0; }
+  padding: 145px 0 0; }
 
 .hero__vertical-line {
-  border-bottom: 1px solid #f2f2f2;
-  min-height: 40px; }
+  border-left: 1px solid #f2f2f2;
+  min-height: 100px; }
 
 .section-service {
   background-color: #f5f5f5;
@@ -82,11 +82,12 @@
   line-height: 30px; }
 
 .title-underline {
-  border-bottom: 2px solid #29323c;
-  padding-bottom: 20px;
-  max-width: 40px; }
+  margin: auto;
+  max-width: 40px;
+  border: 1px solid #29323c; }
 
 .elements {
+  padding-top: 60px;
   display: flex;
   justify-content: space-between; }
 
@@ -106,14 +107,168 @@
 
 .section-works {
   color: #29323c;
-  font-family: "Open-Sans", sans-serif; }
+  font-family: "Open-Sans", sans-serif;
+  margin: auto; }
 
 .images {
   display: flex;
-  flex-wrap: wrap;
-  min-width: 1170px; }
+  flex-flow: row wrap;
+  padding-top: 60px;
+  margin: auto; }
 
 .images__photo {
   width: calc(100%/5);
-  height: 150px;
-  padding: 0; }
+  height: 150px; }
+
+.clients {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .clients__quote {
+    padding: 60px 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #2b3746; }
+  .clients__qoutes {
+    padding-top: 35px;
+    color: #2b3746;
+    font-family: "Montserrat", sans serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic; }
+  .clients__img {
+    padding: 35px 0 0; }
+  .clients__name {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #29323c; }
+  .clients__paragraph {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #29323c; }
+
+.section-team {
+  background: url("../img/team.png");
+  background-size: cover;
+  min-height: 900px; }
+
+.title__inPage-color {
+  color: #fff; }
+
+.box {
+  display: flex;
+  justify-content: center; }
+
+.box-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color: #f2f2f2;
+  opacity: 0.75; }
+  .box-item__h3 {
+    padding-top: 30px; }
+  .box-item__paragraph {
+    padding-top: 10px; }
+  .box-item__logos {
+    padding-top: 20px; }
+
+.team-btn {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center; }
+  .team-btn__links {
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #e8e8e8;
+    font-family: "Montserrat", sans serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 25px; }
+    .team-btn__links:hover {
+      background-color: white;
+      color: #000; }
+
+.brand {
+  background-color: #f5f5f5;
+  background-size: cover; }
+
+.brand-elements {
+  padding: 45px 0 45px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .table__item {
+    max-width: 385px;
+    border: 1px solid #dddddd; }
+
+.table-text {
+  text-align: center;
+  padding-top: 30px;
+  color: #485563;
+  font-family: "Montserrat", sans serif;
+  border-bottom: 1px solid #dddddd; }
+
+.text__h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px; }
+
+.text__h2 {
+  padding-top: 23px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 9px; }
+
+.text__paragraph {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  opacity: 0.8;
+  color: #29323c;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300; }
+
+.item__fclts {
+  text-align: center;
+  padding: 80px 75px 0 75px;
+  color: #29323c;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px; }
+
+.table_btn {
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center; }
+  .table_btn .btn__links {
+    padding: 15px 34px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #e8e8e8;
+    border-radius: 25px;
+    border: 2px solid #485563;
+    background-color: #485563; }
+
+.contact {
+  display: flex; }
+
+.formBox {
+  background: url("../img/bcgFormBox.png") no-repeat;
+  display: flex;
+  flex-direction: column; }

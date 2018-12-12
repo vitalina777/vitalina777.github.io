@@ -1,17 +1,22 @@
 .section-works{
   color: #29323c;
   font-family: $font-openSans;
+  //min-width: 2000px;
+  margin: auto;
 }
 
 .images{
   display: flex;
-  flex-wrap: wrap;
-  min-width: 1170px;
+  flex-flow: row wrap;
+  padding-top: 60px;
+  //min-width: 2000px;
+  margin: auto;
 }
 
 .images__photo{
   width: calc(100%/5);
   height: 150px;
-  padding: 0;
-
+  //padding: 0;
+  //display: flex;
+  //flex-flow: row wrap;
 }
