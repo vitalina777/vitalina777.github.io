@@ -1,0 +1,283 @@
+.top{
+  background: url("../img/Home/Layer_2.png") no-repeat;
+  background-size: cover;
+  header{
+    body {
+      background: #665464;
+    }
+    #site-navigation {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 48px;
+      text-align: right;
+      .header__logo{
+        @include logo;
+        margin-right: 180px;
+      }
+      #main-menu {
+        display: none;
+        text-align: right;
+      }
+      > {
+        input {
+          display: none;
+          text-align: right;
+        }
+        label {
+          display: block;
+          font-size: 36px;
+          color: #fff;
+          position: absolute;
+          right: 20px;
+          width: 36px;
+          padding: 0;
+          cursor: pointer;
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+        input:checked + #main-menu {
+          display: block;
+          clear: both;
+          top: 36px;
+          position: relative;
+          background: #3195A6;
+          color: #fff;
+        }
+      }
+      ul li {
+        display: block;
+        padding: 12px 8px;
+        @include menu;
+        &:hover {
+          background: #74C7D5;
+          text-shadow: 1px 1px 0 #555;
+          border-radius: 4px;
+        }
+      }
+      a {
+        text-decoration: none;
+        padding: 0 15px;
+        color: $main-color;
+      }
+    }
+
+    @media only screen and (min-device-width: 768px) {
+      #site-navigation {
+        height: auto;
+        #main-menu {
+          display: block;
+        }
+        > label {
+          display: none;
+        }
+        ul li {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .top__carousel{
+    padding: 80px 0;
+    .top__carousel-box {
+      text-align: center;
+      padding: 4em 0;
+      max-width: 800px;
+      max-height: 500px;
+      margin: auto;
+      position: relative;
+      overflow: hidden;
+      .slides {
+        width: 400%;
+        left: 0;
+        padding-left: 0;
+        padding-top: 1em;
+        overflow: hidden;
+        list-style: none;
+        position: relative;
+        -webkit-transition: transform .5s;
+        -moz-transition: transform .5s;
+        -o-transition: transform .5s;
+        transition: transform .5s;
+        li {
+          width: 25%;
+          position: relative;
+          float: left;
+        }
+      }
+      li {
+        opacity: 0.8;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 200px 0;
+        h1{
+          font-family: $main-font;
+          font-size: 138px;
+          font-weight: 600;
+          color: $top-color;
+          text-transform: uppercase;
+        }
+        h2{
+          margin: 0;
+          max-width: 400px;
+          text-align: right;
+          @include headline-page;
+          color: $top-color;
+          text-transform: none;
+        }
+      }
+      .slidesNavigation {
+        display: block;
+        list-style: none;
+        text-align: center;
+        bottom: 1em;
+        position: absolute;
+        width: 104px;
+        left: 50%;
+        margin-left: -52px;
+      }
+      input {
+        display: none;
+      }
+      .slidesNavigation label {
+        float: left;
+        margin: 10px;
+        display: block;
+        height: 13px;
+        width: 13px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #C8C1B5;
+        font-size: 0;
+      }
+    }
+
+    #radio-1:checked ~ .slides {
+      transform: translateX(0%);
+    }
+
+    #radio-2:checked ~ .slides {
+      transform: translateX(-25%);
+    }
+
+    #radio-3:checked ~ .slides {
+      transform: translateX(-50%);
+    }
+
+    #radio-4:checked ~ .slides {
+      transform: translateX(-75%);
+    }
+
+    .top__carousel-box {
+      .slidesNavigation label:hover {
+        cursor: pointer;
+      }
+      #radio-1:checked ~ .slidesNavigation label#dotForRadio-1, #radio-2:checked ~ .slidesNavigation label#dotForRadio-2, #radio-3:checked ~ .slidesNavigation label#dotForRadio-3, #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+        background: $top-color;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .top{
+    background-size: cover;
+    header{
+      #site-navigation{
+        .header__logo{
+          margin: 0;
+        }
+        #main-menu{
+          ul li {
+            display: block;
+            padding: 12px 8px;
+            @include menu;
+          }
+          a {
+            text-decoration: none;
+            padding: 0 5px;
+            color: $main-color;
+          }
+        }
+      }
+    }
+    .top__carousel{
+      padding-bottom: 300px;
+      .top__carousel-box{
+
+        max-width: 700px;
+        li {
+          h1{
+            font-size: 115px;
+          }
+          h2{
+            line-height: 35px;
+            font-size: 55px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 575.98px){
+  .top{
+    header{
+      .header__logo{
+        margin-left: 50px;
+        padding-left: 10px;
+        position: absolute;
+      }
+      #site-navigation{
+        display: block;
+        > {
+          input {
+          }
+          label{
+            margin-top: 20px;
+          }
+          input:checked + #main-menu {
+            top: 60px;
+            position: relative;
+
+          }
+        }
+        ul li {
+          display: block;
+          padding: 0 20px;
+          @include menu;
+        }
+        a {
+          text-decoration: none;
+          color: $main-color;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+    .top__carousel{
+      .top__carousel-box{
+        max-width: 300px;
+        max-height: 400px;
+        .slides{
+          margin-bottom: 60px;
+          .slide{
+            margin: 0;
+            h1{
+              font-size: 45px;
+            }
+            h2{
+              line-height: 15px;
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
