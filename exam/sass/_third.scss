@@ -1,0 +1,25 @@
+.content-third{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-in-third-section{
+  padding-top: 110px;
+  padding-right: 300px;
+}
+
+.paragraph-text-third{
+  padding-top: 30px;
+}
+
+//.karusel{
+//  height: 43px;
+//  width: 35px;
+//  padding-top: 440px;
+//}
+
+@media(max-width: 875px) {
+  .img-in-third-section{
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+.fifthy-section{
+  background: url("../img/fifthy/fifthy-banner.png") no-repeat;
+  background-size: cover;
+}
+
+//.content-fifthy{
+//  text-align: center;
+//}
+
+.h3-fifthy{
+  padding-top: 350px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.input-email{
+  width: 280px;
+  height: 60px;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.forma{
+  padding-left: 340px;
+  padding-bottom: 325px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width: 780px) {
+.forma{
+  padding-left: 200px;
+}
+}
